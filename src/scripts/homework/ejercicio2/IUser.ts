@@ -1,10 +1,5 @@
 
 export interface IUser {
-	_id: Number;
-	_name: String;
-	_dateBirth: String;
-	_yearsOld: Number;
-
 	get id();
 	set id(id: Number);
 
