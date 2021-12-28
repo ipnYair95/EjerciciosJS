@@ -29,6 +29,7 @@ npm run build
 
 When you run `npm run build` we use the [mini-css-extract-plugin](https://github.com/webpack-contrib/mini-css-extract-plugin) to move the css to a separate file. The css file gets included in the head of the `index.html`.
 
+* Los ejercicios se encuentrán dentro de la carpeta src/scripts/homework
 
 ### Correr Ejercicio1
 * Copiar el archivo ejercicio1.js al index.js
