@@ -1,14 +1,12 @@
+import { User } from "./User";
 
-export interface IUser {
-	get id();
-	set id(id: Number);
+ 
 
-	get name();
-	set name(name: String);
+ export interface IUser {
+	id: number;
+	name: string;
+	dateBirth: string;
+	yearsOld: number;
 
-	get dateBirth();
-	set dateBirth(dateBirth: String);
-
-	get yearsOld();
-	set yearsOld(yearsOld: Number);
+	getUsuarioByEmail(email: string): string;
 }
