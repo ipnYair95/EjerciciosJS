@@ -31,6 +31,10 @@ export const directory = [
 		id: "8",
 		email: "elizabeth.contreras@axity.com",
 	},
+	{
+		id: "9",
+		email: "edgar.marin@axity.com",
+	},
 ];
 
 export const users = [

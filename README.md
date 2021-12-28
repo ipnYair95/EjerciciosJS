@@ -31,5 +31,11 @@ When you run `npm run build` we use the [mini-css-extract-plugin](https://github
 
 
 ### Correr Ejercicio1
-* Copiar el archivo ejercicio1.js al index.js y correr con npm start
+* Copiar el archivo ejercicio1.js al index.js
+* Correr con npm run start
+
+### Correr Ejercicio2
+* Copiar el contenido del archivo ejercicio2.ts al index.ts
+* Transpilar TS a JS con "tsc .\src\scripts\index.ts"
+* Correr con npm run start
 
