@@ -52,7 +52,7 @@ export class User implements IUser {
 		}
 
 		let userResp: UserResp | undefined = users.find(
-			(ele) => ele.id == idUser
+			(ele) => ele.id === idUser
 		);
 
 		if (userResp === undefined) {
